@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb73976d58a24a1baeb85923be2a7fe, type: 3}
+  m_Name: JaneDoe
+  m_EditorClassIdentifier: 
+  name: Jane Doe
+  guilty: 1
+  dead: 0
+  talkedTo: 1
+  evidenceIdentifier: JohnDoeDead
+  dialogue:
+  - Please help!! There's been a murder in my front room!!!
+  - '*takes breaths* "I''m sorry, I''m just so frightened. My name is Jane, I came
+    home and found my brother dead in front of the sofa."'
+  - '"I''m Jane, I came home and found him dead in there."'
+  - '*silent*'
+  - '"I came home about 40 minutes ago, I was last in the house 3 hours prior."'
+  playerDialogue:
+  - '"Calm down, you''re safe. Please tell me your name and what you know about the
+    murder."'
+  - '"Good Morning, Madam. Tell me your name and what you know."'
+  - '"Shut up and let me do my job."'
+  - (analysis shows the body is ice cold) "Madam, when did you discover the body?"
